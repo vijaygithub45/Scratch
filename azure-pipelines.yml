@@ -48,6 +48,6 @@ jobs:
       testResultsFiles: '**/*.trx' 
       buildConfiguration: 
 
-- task: PublishBuildArtifacts@1
+  - task: PublishBuildArtifacts@1
 
 
