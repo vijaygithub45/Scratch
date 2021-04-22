@@ -8,9 +8,6 @@ trigger:
 
 jobs:
 - job: Linux
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
   pool:
     vmImage: 'vijayscratch'
   steps:
